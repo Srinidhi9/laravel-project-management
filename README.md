@@ -37,4 +37,31 @@ This application demonstrates backend development skills including **REST API cr
 ```bash
 git clone https://github.com/Srinidhi9/laravel-project-management.git
 cd laravel-project-management
+### 2.Install dependencies
+composer install
+
+### 3.Configure environment
+cp .env.example .env
+php artisan key:generate
+
+### 4.Run migrations
+php artisan migrate
+
+### 5.Start server
+php artisan serve
+
+## 🔌 API Capabilities
+
+- User Authentication APIs
+- Project CRUD APIs
+- Task CRUD APIs
+- Status filtering endpoints
+
+## 👩‍💻 Developer
+
+**Srinidhi Dubba**
+Backend Developer (Java & Laravel)
+
+📧 Email: srinidhireddy9948@gmail.com  
+🔗 LinkedIn: https://linkedin.com/in/srinidhidubba
 
