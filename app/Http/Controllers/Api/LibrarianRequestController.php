@@ -112,7 +112,11 @@ class LibrarianRequestController extends Controller
             'message' => 'Librarian request rejected'
         ], 200);
     }
-
+    /**
+     * Summary of myRequests
+     * @param \Illuminate\Http\Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function myRequests(Request $request)
     {
         $user = $request->user();
